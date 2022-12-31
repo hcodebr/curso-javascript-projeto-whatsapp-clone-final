@@ -15,12 +15,12 @@
   "author": "Hcode Treinamentos",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.1.0",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^2.5.1",
-    "worker-loader": "^1.1.1"
+    "worker-loader": "^3.0.8"
   },
   "dependencies": {
     "firebase": "^4.13.1",
-    "pdfjs-dist": "^2.0.489"
+    "pdfjs-dist": "^2.16.105"
   }
 }
