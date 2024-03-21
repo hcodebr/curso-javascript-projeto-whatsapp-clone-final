@@ -9,17 +9,7 @@ export class Firebase {
   init() {
     if (!window._initializedFirebase) {
       firebase.initializeApp({
-        // apiKey: "AIzaSyCxQ0lj_mDPaoO0BwiD6fmamqmczzGWVlY",
-        // authDomain: "whatsapp-clone-a7181.firebaseapp.com",
-        // projectId: "whatsapp-clone-a7181",
-        // storageBucket: "gs://whatsapp-clone-a7181.appspot.com/",
-
-        apiKey: "AIzaSyBV9RS4oWa-MFWg7A24uB97xaD_lF3Hfq0",
-        authDomain: "clone-whatsapp-saulo.firebaseapp.com",
-        projectId: "clone-whatsapp-saulo",
-        storageBucket: "clone-whatsapp-saulo.appspot.com",
-        // messagingSenderId: "44005206388",
-        // appId: "1:44005206388:web:3ea167c27296b00a906421",
+        // usas crendencias do firebase
       });
 
       firebase.firestore().settings({
